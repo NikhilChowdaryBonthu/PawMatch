@@ -1,0 +1,13 @@
+<div class="dog-list">
+  <div *ngFor="let dog of dogs">
+    <img [src]="dog.img" alt="Dog photo" />
+    <h3>{{ dog.name }}</h3>
+    <p>Age: {{ dog.age }}</p>
+    <p>Breed: {{ dog.breed }}</p>
+    <p>Location: {{ dog.zip_code }}</p>
+    <button (click)="toggleFavorite(dog.id)">
+      {{ favorites.has(dog.id) ? 'Unfavorite' : 'Favorite' }}
+    </button>
+  </div>
+  <button (click)="findMatch()">Find My Match</button>
+</div>
