@@ -1,0 +1,3 @@
+  - "This is a game where you can adopt dogs!"
+  - "You can see pictures of dogs and learn about them"
+  - "Made with Angular and TypeScript"
