@@ -42,6 +42,13 @@ The frontend uses Supabase's browser-safe publishable key. Database access is go
 
 PawMatch is a portfolio MVP. It supports real authentication, favorites, and adoption-interest submissions. Before a production launch, add end-to-end tests, Petfinder-backed listings, and a moderated staff workflow for applications.
 
+## Roadmap
+
+- **Real listings:** integrate an officially supported adoption-data provider through a secure Supabase Edge Function.
+- **Better matching:** let adopters describe their lifestyle and show the factors behind each score.
+- **Application workflow:** provide a moderated staff dashboard for reviewing adoption-interest submissions.
+- **Quality:** expand automated tests and add end-to-end coverage before a production launch.
+
 ## License
 
 Licensed under the [MIT License](LICENSE).
