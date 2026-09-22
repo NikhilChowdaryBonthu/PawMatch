@@ -8,4 +8,4 @@ jobs:
       - name: Verify required files
         run: test -f index.html && test -f main.js && test -f styles.css && test -f README.md
       - name: Check for private credentials
-        run: '! grep -R --exclude-dir=.git -E "(service_role|postgresql://postgres:)" .'
+        run: '! grep -R --exclude-dir=.git --exclude=quality.yml -E "(service_role|postgresql://postgres:)" .'
