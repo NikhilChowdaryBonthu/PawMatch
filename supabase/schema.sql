@@ -62,7 +62,7 @@ grant select, insert on public.adoption_interests to authenticated;
 insert into public.dogs
   (id, name, breed, size, energy_level, description, image_url)
 values
-  ('11111111-1111-4111-8111-111111111111', 'Luna', 'Australian Shepherd', 'Medium', 'High', 'Loyal and brilliant', 'https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=700&q=80'),
-  ('22222222-2222-4222-8222-222222222222', 'Milo', 'Beagle', 'Small', 'Medium', 'Curious and friendly', 'https://images.unsplash.com/photo-1558788353-f76d92427f16?auto=format&fit=crop&w=700&q=80'),
-  ('33333333-3333-4333-8333-333333333333', 'Nova', 'Labrador Mix', 'Large', 'Medium', 'Gentle family companion', 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?auto=format&fit=crop&w=700&q=80'),
-  ('44444444-4444-4444-8444-444444444444', 'Teddy', 'Pomeranian', 'Small', 'Low', 'Calm and affectionate', 'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=700&q=80');
+  ('11111111-1111-4111-8111-111111111111', 'Luna', 'Australian Shepherd', 'Medium', 'High', 'Loyal and brilliant', 'https://images.unsplash.com/photo-1770345629583-01333c1c31b0?auto=format&fit=crop&w=700&q=80'),
+  ('22222222-2222-4222-8222-222222222222', 'Milo', 'Beagle', 'Small', 'Medium', 'Curious and friendly', 'https://images.unsplash.com/photo-1608113240010-e76286118bf2?auto=format&fit=crop&w=700&q=80'),
+  ('33333333-3333-4333-8333-333333333333', 'Nova', 'Labrador Mix', 'Large', 'Medium', 'Gentle family companion', 'https://images.unsplash.com/photo-1658833944717-ce9680d3c4d5?auto=format&fit=crop&w=700&q=80'),
+  ('44444444-4444-4444-8444-444444444444', 'Teddy', 'Pomeranian', 'Small', 'Low', 'Calm and affectionate', 'https://images.unsplash.com/photo-1623542723243-3efce8898534?auto=format&fit=crop&w=700&q=80');
