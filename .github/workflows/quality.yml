@@ -10,7 +10,9 @@ jobs:
         with:
           node-version: 22
       - name: Verify required files
-        run: test -f index.html && test -f main.js && test -f match.js && test -f styles.css && test -f README.md
+        run: test -f index.html && test -f main.js && test -f match.js && test -f styles.css && test -f README.md && test -f supabase/schema.sql
+      - name: Check JavaScript syntax
+        run: node --check main.js && node --check match.js
       - name: Run matching tests
         run: node --test tests/match.test.mjs
       - name: Check for private credentials
