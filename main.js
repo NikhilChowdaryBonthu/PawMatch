@@ -1,5 +1,5 @@
 import { createClient } from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm";
-import { calculateMatchScore, filterDogs } from "./match.js";
+import { calculateMatchScore, filterDogs } from "./match.js?v=af481f6";
 
 const supabase = createClient(
   "https://emtnkyfpzryozlzwtqve.supabase.co",
