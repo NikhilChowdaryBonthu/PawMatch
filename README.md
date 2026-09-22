@@ -4,7 +4,7 @@ A portfolio dog-discovery demo built with JavaScript and Supabase. PawMatch comb
 
 **Live demo:** [nikhilchowdarybonthu.github.io/PawMatch](https://nikhilchowdarybonthu.github.io/PawMatch/)
 
-<img width="900" alt="Current PawMatch demo homepage with sample dog cards" src="https://github.com/user-attachments/assets/cf83c6d5-9a87-4cfa-b2f5-3e9e66f4c417" />
+<img width="900" alt="Current PawMatch demo homepage with sample dog cards" src="https://github.com/user-attachments/assets/0c87a44f-8ff8-40ff-95d8-dd677d63fa8b" />
 
 
 ## Features
