@@ -4,7 +4,7 @@ A portfolio dog-discovery demo built with JavaScript and Supabase. PawMatch comb
 
 **Live demo:** [nikhilchowdarybonthu.github.io/PawMatch](https://nikhilchowdarybonthu.github.io/PawMatch/)
 
-<img width="1012" height="1096" alt="PawMatch homepage with sample dog listings" src="https://github.com/user-attachments/assets/611cf81b-5607-453d-bf69-82835e520de8" />
+<img width="900" alt="Current PawMatch demo homepage with sample dog cards" src="https://github.com/user-attachments/assets/cf83c6d5-9a87-4cfa-b2f5-3e9e66f4c417" />
 
 
 ## Features
@@ -12,7 +12,7 @@ A portfolio dog-discovery demo built with JavaScript and Supabase. PawMatch comb
 - Browse and filter four sample dogs by size and energy level
 - Transparent demo scores based on listing size and energy; scores are not personalized yet
 - Email/password authentication with Supabase
-- Favorite records stored in Supabase for signed-in users
+- Add and remove favorites that sync with the signed-in Supabase account
 - Demo adoption-interest records stored securely in Supabase; no shelter is contacted
 - Row Level Security protecting personal data
 - Responsive, browser-first interface
