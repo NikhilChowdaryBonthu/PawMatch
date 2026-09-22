@@ -4,6 +4,9 @@ A full-stack dog-adoption discovery platform built with JavaScript and Supabase.
 
 **Live demo:** [nikhilchowdarybonthu.github.io/PawMatch](https://nikhilchowdarybonthu.github.io/PawMatch/)
 
+<img width="1012" height="1096" alt="clipboard" src="https://github.com/user-attachments/assets/611cf81b-5607-453d-bf69-82835e520de8" />
+
+
 ## Features
 
 - Browse and filter available dogs by size and energy level
