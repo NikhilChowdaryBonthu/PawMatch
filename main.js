@@ -14,7 +14,7 @@ apply.onclick=async()=>{if(!currentUser)return alert('Please sign in before subm
 const authButton=document.querySelector("#auth"),authModal=document.querySelector("#authModal"),authForm=document.querySelector("#authForm"),authMessage=document.querySelector("#authMessage");
 async function refreshAuth(){const {data:{session}}=await supabase.auth.getSession();currentUser=session?.user??null;authButton.textContent=session?"Sign out":"Sign in";authButton.onclick=async()=>{if(session){await supabase.auth.signOut();location.reload()}else authModal.showModal()}}
 authForm.onsubmit=async e=>{e.preventDefault();const {error}=await supabase.auth.signInWithPassword({email:email.value,password:password.value});authMessage.textContent=error?error.message:"Signed in successfully.";if(!error)setTimeout(()=>location.reload(),500)};
-signup.onclick=async()=>{const {error}=await supabase.auth.signUp({email:email.value,password:password.value});authMessage.textContent=error?error.message:"Account created. Check your email to confirm it."};
+signup.onclick=async()=>{const {error}=await supabase.auth.signUp({email:email.value,password:password.value,options:{emailRedirectTo:"https://nikhilchowdarybonthu.github.io/PawMatch/"}});authMessage.textContent=error?error.message:"Account created. Check your email to confirm it."};
 authModal.querySelector(".close").onclick=()=>authModal.close();refreshAuth();
 
 async function loadDogs(){const {data,error}=await supabase.from("dogs").select("*").eq("is_available",true);if(!error&&data?.length){dogs=data.map(x=>{const d=[x.name,x.breed,x.size,x.energy_level,x.description,x.image_url];d.id=x.id;return d});render()}}
