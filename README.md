@@ -9,10 +9,10 @@ A portfolio dog-discovery demo built with JavaScript and Supabase. PawMatch comb
 
 ## Features
 
-- Browse and filter available dogs by size and energy level
+- Browse and filter four sample dogs by size and energy level
 - Transparent demo scores based on listing size and energy; scores are not personalized yet
 - Email/password authentication with Supabase
-- Persistent favorites for signed-in users
+- Favorite records stored in Supabase for signed-in users
 - Demo adoption-interest records stored securely in Supabase; no shelter is contacted
 - Row Level Security protecting personal data
 - Responsive, browser-first interface
@@ -26,11 +26,11 @@ The published demo connects to its own Supabase project. To run an independent c
 3. In Supabase Authentication → URL Configuration, set the Site URL and allowed redirect URL to your deployed site. Update `emailRedirectTo` in `main.js` to that same URL. For local sign-up testing, allow your localhost URL too.
 4. Start a local static server:
 
-```bash
-python3 -m http.server 8080
-```
+   ```bash
+   python3 -m http.server 8080
+   ```
 
-Then visit `http://localhost:8080`. Use your own Supabase project before testing sign-up or database writes.
+   Then visit `http://localhost:8080`. Use your own Supabase project before testing sign-up or database writes.
 
 ## Tests
 
