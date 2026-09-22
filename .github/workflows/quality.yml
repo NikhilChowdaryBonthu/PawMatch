@@ -12,6 +12,6 @@ jobs:
       - name: Verify required files
         run: test -f index.html && test -f main.js && test -f match.js && test -f styles.css && test -f README.md
       - name: Run matching tests
-        run: node --test tests
+        run: node --test tests/match.test.mjs
       - name: Check for private credentials
         run: '! grep -R --exclude-dir=.git --exclude=quality.yml -E "(service_role|postgresql://postgres:)" .'
