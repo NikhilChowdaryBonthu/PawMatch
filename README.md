@@ -64,6 +64,10 @@ PawMatch is a portfolio MVP, not a live adoption service. Authentication and fav
 - **Application workflow:** provide a moderated staff dashboard for reviewing adoption-interest submissions.
 - **Quality:** expand automated tests and add end-to-end coverage before a production launch.
 
+## Sample photo credits
+
+The four listings and their photos are illustrative portfolio data, not photos of dogs available for adoption. Photos: [Luna, Australian Shepherd — Sandy Millar](https://unsplash.com/photos/a-fluffy-australian-shepherd-dog-with-blue-eyes-h2HWYeq-IE0), [Milo, Beagle — Gursimrat Ganda](https://unsplash.com/photos/white-brown-and-black-beagle-Qia9cxFiFAs), [Nova, Labrador — Gideon Karanja](https://unsplash.com/photos/a-brown-dog-with-a-green-collar-a05uU0sHOtE), and [Teddy, Pomeranian — Donna Fer](https://unsplash.com/photos/brown-pomeranian-puppy-on-focus-photo-kuyTmDLCzZk).
+
 ## License
 
 Licensed under the [MIT License](LICENSE).
