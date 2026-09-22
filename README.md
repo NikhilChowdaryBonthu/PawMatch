@@ -2,6 +2,8 @@
 
 A full-stack dog-adoption discovery platform built with JavaScript and Supabase. PawMatch combines searchable dog listings with transparent, explainable compatibility scores.
 
+**Live demo:** [nikhilchowdarybonthu.github.io/PawMatch](https://nikhilchowdarybonthu.github.io/PawMatch/)
+
 ## Features
 
 - Browse and filter available dogs by size and energy level
@@ -35,7 +37,7 @@ The frontend uses Supabase's browser-safe publishable key. Database access is go
 
 ## Project status
 
-PawMatch is a portfolio MVP. It supports real authentication, favorites, and adoption-interest submissions. Before a production launch, add an email redirect URL for the deployed domain, end-to-end tests, and a moderated staff workflow for applications.
+PawMatch is a portfolio MVP. It supports real authentication, favorites, and adoption-interest submissions. Before a production launch, add end-to-end tests, Petfinder-backed listings, and a moderated staff workflow for applications.
 
 ## License
 
