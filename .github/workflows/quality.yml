@@ -1,0 +1,11 @@
+name: Static quality checks
+on: [push, pull_request]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify required files
+        run: test -f index.html && test -f main.js && test -f styles.css && test -f README.md
+      - name: Check for private credentials
+        run: '! grep -R --exclude-dir=.git -E "(service_role|postgresql://postgres:)" .'
